@@ -1,14 +1,13 @@
-# 创建目录
+
 sudo mkdir -p /etc/docker/containers/wg-easy
 
-# 下载 docker-compose.yml
+
 sudo curl -o /etc/docker/containers/wg-easy/docker-compose.yml \
 https://raw.githubusercontent.com/afcafcafc/easy-wg-compose/refs/heads/main/docker-compose.yml
 
-# 进入目录
+
 cd /etc/docker/containers/wg-easy
 
-# 启动容器
 sudo docker compose up -d
 
 # 进入目录
